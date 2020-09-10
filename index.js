@@ -27,5 +27,4 @@ function deepestChild() {
       return grandNode[i]
     }
   }
-  return null
 }
