@@ -28,5 +28,4 @@ function deepestChild() {
       nodeArray.push(grandNode[i])
     }
     return nodeArray
-  }
 }
