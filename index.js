@@ -26,7 +26,7 @@ function deepestChild() {
 
   for (let i = 0; i < deep.length; i++) {
     if (deep[i].children === 0) {
-      return deep[i].innerHTML
+      return deep.innerHTML
     }
   }
 
