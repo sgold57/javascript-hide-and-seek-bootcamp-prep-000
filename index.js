@@ -24,6 +24,6 @@ function deepestChild() {
 
   const divList = grandNode.querySelectorAll('div')
 
-  return divList[divList.length - 1]
+  return grandNode[grandNode.length - 1]
 
 }
