@@ -23,7 +23,7 @@ function deepestChild() {
                     .querySelector("div#grand-node")
 
   for (let i = 0; i < grandNode.length; i++) {
-    if grandNode[i].children === 0 {
+    if (grandNode[i].children === 0) {
       return grandNode[i].innerHTML
     }
   }
