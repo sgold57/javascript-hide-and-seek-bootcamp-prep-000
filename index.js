@@ -24,5 +24,10 @@ function deepestChild() {
 
   var divList = grandNode.querySelectorAll("div")
 
-  return divList[divList.length - 1]
+  for (let i = 0; i < divList.length; i++){
+    if (divList[i].children.length === 0) {
+      return divList[i].innerHTML
+    }
+  }
+
 }
