@@ -21,9 +21,12 @@ function deepestChild() {
   const grandNode = document
                     .getElementById("app")
                     .querySelector("div#grand-node")
+  var deep
 
-  const divList = grandNode.querySelectorAll('div')
+  while (grandNode.children != 0) {
+    deep = grandNode.querySelector(children)
+  }
 
-  return grandNode[grandNode.length - 1]
+  return deep
 
 }
