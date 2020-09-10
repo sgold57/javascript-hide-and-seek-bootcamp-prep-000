@@ -22,5 +22,5 @@ function deepestChild() {
                     .getElementById("app")
                     .querySelector("div#grand-node")
 
-  return grandNode[grandNode.length]
+  return grandNode[grandNode.length.innerHTML]
 }
