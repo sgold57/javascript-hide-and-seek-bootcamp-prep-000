@@ -21,6 +21,6 @@ function deepestChild() {
   const grandNode = document
                     .getElementById("app")
                     .querySelector("div#grand-node")
-  
-    return grandNode
+
+  return grandNode[grandNode.length]
 }
