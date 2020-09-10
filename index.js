@@ -24,7 +24,7 @@ function deepestChild() {
   var deep
 
   while (grandNode.children != 0) {
-    deep = grandNode.querySelector(children)
+    deep = grandNode.children
   }
 
   return deep
