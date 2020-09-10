@@ -30,7 +30,7 @@ function deepestChild() {
       return current.innerHTML
     }
   if (grandNode.children != 0) {
-    for let(i = 0; i < grandNode.length; i++) {
+    for (let i = 0; i < grandNode.length; i++) {
       next.push(current[i])
     }
   }
