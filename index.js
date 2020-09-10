@@ -22,9 +22,10 @@ function deepestChild() {
                     .getElementById("app")
                     .querySelector("div#grand-node")
 
-  let (i = 0; i < grandNode.length; i++) {
+  for (let i = 0; i < grandNode.length; i++) {
     if grandNode[i].children === 0 {
       return grandNode[i].innerHTML
     }
   }
+  return null
 }
