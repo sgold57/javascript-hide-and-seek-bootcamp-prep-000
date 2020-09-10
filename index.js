@@ -21,11 +21,6 @@ function deepestChild() {
   const grandNode = document
                     .getElementById("app")
                     .querySelector("div#grand-node")
-  var nodeArray = []
-
-
-  for (let i = 0; i < grandNode.length; i++) {
-      nodeArray.push(grandNode[i])
-    }
-    return nodeArray
+  
+    return grandNode
 }
