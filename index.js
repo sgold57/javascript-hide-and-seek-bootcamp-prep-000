@@ -24,8 +24,8 @@ function deepestChild() {
                     .getElementsByTagName("div")
 
   for (let i = 0; i < grandNode.length; i++) {
-    if (grandNode[i].children != 0) {
-      return grandNode[i]
+    if (grandNode[i].children[0] === 0) {
+      return grandNode[i].innerHTML
     }
   }
 
