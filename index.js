@@ -22,18 +22,5 @@ function deepestChild() {
                     .getElementById("app")
                     .querySelector("div#grand-node")
 
-  let current = grandNode
-  let next = []
-
-  while (current || current === 0) {
-    if (current.children === 0){
-      return current.innerHTML
-    }
-  if (grandNode.children != 0) {
-    for (let i = 0; i < grandNode.length; i++) {
-      next.push(current[i])
-    }
-  }
-  current = next.shift()
-}
+  const deep = grandNode.lastElementChild
 }
