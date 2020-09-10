@@ -24,8 +24,8 @@ function deepestChild() {
 
 
   for (let i = 0; i < grandNode.length; i++) {
-    console.log(grandNode[i])
     if (grandNode[i].children === 0) {
+      console.log(grandNode[i])
       return grandNode[i].textContent
     }
   }
