@@ -22,7 +22,7 @@ function deepestChild() {
                     .getElementById("app")
                     .querySelector("div#grand-node")
 
-  const divList = gradNode.querySelectorAll('div')
+  const divList = grandNode.querySelectorAll('div')
 
   return divList[divList.length].innerHTML
 
