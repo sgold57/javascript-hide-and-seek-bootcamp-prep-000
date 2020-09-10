@@ -23,5 +23,5 @@ function deepestChild() {
                     .querySelector("div#grand-node")
 
   const deep = grandNode.lastElementChild
-  return deep.innerHTML
+  return deep
 }
