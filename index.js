@@ -27,6 +27,6 @@ function deepestChild() {
   while (deep.children != 0) {
       deep = deep.children
     }
-    return deep
+    return deep.innerHTML
 
 }
