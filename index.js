@@ -21,7 +21,8 @@ function deepestChild() {
   const grandNode = document
                     .getElementById("app")
                     .querySelector("div#grand-node")
-                    .querySelectorAll("div")
+
+  var deep = grandNode.querySelectorAll("div")
 
   for (let i = 0; i < grandNode.length; i++) {
     if (grandNode[i].children[0] === 0) {
